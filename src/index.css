@@ -89,7 +89,7 @@ h1 {
   color: var(--dark-purple);
   font-size: 6vw;
   letter-spacing: 1px;
-  padding: 1rem 1rem 6rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   text-align: center;
 }
 .game-board {
@@ -292,60 +292,5 @@ h1 {
   .game {
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
-  }
-}
-/* Original CSS */
-
-/* ... (existing code) ... */
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 8vw;
-  }
-
-  .game-board {
-    font-size: 20px;
-  }
-
-  .square {
-    font-size: 8vw;
-    height: 5rem;
-    width: 5rem;
-    line-height: 20px;
-  }
-
-  .game img {
-    max-width: 25rem;
-  }
-
-  .player-x,
-  .player-o {
-    font-size: 4vw;
-    padding: 0.5rem 2rem;
-  }
-
-  .player-x:after,
-  .player-o:after {
-    font-size: 6vw;
-    width: 35px;
-    height: 7px;
-    line-height: 20px;
-    bottom: -15px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .game {
-    grid-template-columns: 1fr;
-    margin-bottom: 3rem;
-  }
-
-  .player-x {
-    margin-left: 1rem;
-  }
-
-  .player-o {
-    margin-left: 13rem;
-    margin-top: -2rem;
   }
 }
